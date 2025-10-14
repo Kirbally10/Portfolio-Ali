@@ -1,0 +1,23 @@
+div {
+    background-color: blue;
+
+    height: 60px;
+    width: 900px;
+    margin: 10px;
+}
+p
+{
+    color: red;
+}
+
+.c1
+{
+    background-color: yellow;
+    height: 80px;
+    width: 900px;
+    margin: 10px;
+}
+.p1
+{
+    color: green;
+}

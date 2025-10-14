@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Nous contacter</h1>
+    
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+
+        <label for="tel">Téléphone :</label>
+        <input type="number" id="tel" name="tel">
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <input type="submit" value="Envoyer">
+
+        <a href="../index.html">Retour</a>
+
+        <style class="css">
+            body {
+    font-family: arial, sans-serif;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    text-align: center;}
+
+h1 {
+    color: red;
+}
+
+form {
+    background-color: blanchedalmond;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ccc;
+    border-radius: 30px;
+}
+
+input[type="submit"] {
+    background-color: rgb(5, 8, 183);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: red;
+}
+        </style>
+</body>
+</html>
