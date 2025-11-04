@@ -1,12 +1,12 @@
-body{
+.body{
     background-color: grey;
 }
 
-h2{
+.h2{
     color: white;
 }
 
-header{
+.header{
     color: white;
 }
 
@@ -73,3 +73,4 @@ input[type="button"]:hover{
 }
 
 img{border-radius: 3px;}
+
