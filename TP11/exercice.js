@@ -38,4 +38,12 @@ function simple_affichager() {
     document.write('</div>');
 }
 
-function
+function test_couleur() {
+  let couleur = prompt("Entrez une couleur (ex: red, blue, #00ff00, rgb(255,0,0)...)");
+  if (couleur) {
+    document.body.style.backgroundColor = couleur;
+  }
+  else {
+    alert("Aucune couleur saisie");
+  }
+}
