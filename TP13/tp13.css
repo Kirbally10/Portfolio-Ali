@@ -1,0 +1,17 @@
+.c1{
+    float: right;
+}
+
+.c2{
+    float: left;
+    padding: 90px;
+}
+
+.c3{
+    padding: 90px;
+    float: right;
+}
+
+/* .b1{
+    border: 3px solid black;
+} */
