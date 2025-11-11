@@ -39,7 +39,7 @@ function simple_affichager() {
 }
 
 function test_couleur() {
-  let couleur = prompt("Entrez une couleur (ex: red, blue, #00ff00, rgb(255,0,0)...)");
+  let couleur = prompt("Entrez une couleur");
   if (couleur) {
     document.body.style.backgroundColor = couleur;
   }
