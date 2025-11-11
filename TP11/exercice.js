@@ -18,7 +18,6 @@ function calcul_moyenne() {
     }
 }
 
-
 function test_age() {
     let age = prompt("Quelle est votre âge ? ");
     if (age < 18) {
@@ -34,12 +33,9 @@ function test_age() {
 function simple_affichager() {
     let name = prompt("Donner votre nom");
     let prenom = prompt("Donner votre prénom");
-
     document.write('<div style="margin:auto; width:300px; border:2px solid blue;">');
     document.write("Bonjour " + prenom + " " + name);
     document.write('</div>');
 }
 
-    
-
-
+function
