@@ -85,6 +85,11 @@ nav li:hover .submenu{
     background-color: rgba(241, 211, 79, 0.15);
 }
 
+.menu-mission:hover{
+    border-top: 5px solid #0070bb;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+
 .menu-contact:hover{
     border-top: 5px solid #bbb;
     background-color: rgba(220, 220, 220, 0.15);
@@ -102,6 +107,10 @@ nav > ul > li:hover > a{
     background-color: rgb(251, 216, 99);
 }
 
+.menu-mission .submenu {
+    background-color: rgb(000, 160, 240);
+}
+
 .submenu li:hover a {
     background-color: #eee;
     font-weight: bold;
@@ -113,6 +122,10 @@ nav > ul > li:hover > a{
 
 .menu-js .submenu li:hover {
     background-color: rgb(200, 165, 75);
+}
+
+.menu-mission .submenu li:hover {
+    background-color: rgb(000, 115, 200);
 }
 
 .menu-mobile {
@@ -150,3 +163,4 @@ nav input[type="checkbox"]:checked ~ ul {
     position: static;
     }
 }
+
